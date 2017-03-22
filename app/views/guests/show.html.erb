@@ -1,0 +1,5 @@
+<strong><h1><%= @guest.name%></h1></strong>
+<ul>
+  <strong><li>Occupation: <%= @guest.occupation %></li></strong>
+</ul>
+<%= link_to "Create an Appearance", new_appearance_path(guest_id:@guest.id) %>
